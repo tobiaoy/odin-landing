@@ -1,10 +1,9 @@
+ /* Body */
  body {
      display: flex;
      flex-direction: column;
      font-family: Roboto;
-     flex: 1;
-     justify-content: space-between;
-     align-items: center;
+     margin: 0
  }
 
  .hero, .footer, .header {
@@ -42,12 +41,14 @@
     flex: 1;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     
  }
 
  .header ul {
     gap: 15px;
  }
+
 
 /* Hero */
 .hero #primary {
@@ -86,8 +87,12 @@
  }
 
 .random img {
-    max-width: 300px;
+    max-width: 250px;
     max-height: auto;
+}
+
+.random p {
+    max-width: 250px;;
 }
 
 /* Quote */
@@ -101,6 +106,7 @@
     font-style: italic;
     color: #1F2937;
 }
+
 
 /* Call to Action */
 .call #sub{
@@ -117,6 +123,8 @@
 
 /* Footer */
 .footer {
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1
 }

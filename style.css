@@ -1,0 +1,54 @@
+ body {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .hero , .footer {
+     background-color: #1F2937;
+ }
+
+ .hero #primary {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+ }
+
+ .hero #secondary {
+     font-size: 18px;
+     color: #E5E7EB;
+ }
+
+ .hero a {
+    font-size: 18px;
+    color: #E5E7EB;
+ }
+
+ .header #logo {
+    font-size: 24px;
+    color: #F9FAF8
+ }
+
+ button {
+     color: #3882F6;
+ }
+
+ .call div {
+     background-color: #3882F6;
+ }
+
+ .random > .info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+ }
+
+ .quote {
+     background-color: #E5E7EB;
+ }
+
+ .quote #review {
+     font-size: 36px;
+     font-weight: light-italic;
+     color: #1F2937;
+ }

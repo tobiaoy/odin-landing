@@ -1,16 +1,58 @@
  body {
      display: flex;
      flex-direction: column;
-
+     font-family: Roboto;
+     flex: 1;
+     justify-content: space-between;
+     align-items: center;
  }
 
- .hero , .footer {
+ .hero, .footer, .header {
      background-color: #1F2937;
  }
 
- .hero #primary {
+ button {
+     background-color: #3882F6;
+ }
+
+
+ ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     display: flex;
+     gap: 35px;
+ }
+
+
+/* Header */
+.header #logo {
+    font-size: 24px;
+    color: #F9FAF8
+ }
+
+ .header {
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: space-between
+ }
+
+.header {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    
+ }
+
+ .header ul {
+    gap: 15px;
+ }
+
+/* Hero */
+.hero #primary {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
  }
 
@@ -24,31 +66,57 @@
     color: #E5E7EB;
  }
 
- .header #logo {
-    font-size: 24px;
-    color: #F9FAF8
- }
+ .hero {
+    flex-flow: column wrap;
+    align-items: center;
+}
 
- button {
-     color: #3882F6;
- }
+.hero img {
+    max-width: 300px;
+    max-height: auto;
+}
 
- .call div {
-     background-color: #3882F6;
- }
 
- .random > .info {
+/* Some Random Information */
+.random #info {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #1F2937;
+    text-align: center;
  }
 
- .quote {
-     background-color: #E5E7EB;
- }
+.random img {
+    max-width: 300px;
+    max-height: auto;
+}
 
- .quote #review {
-     font-size: 36px;
-     font-weight: light-italic;
-     color: #1F2937;
- }
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote #review {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* Call to Action */
+.call #sub{
+    background-color: #3882F6;
+}
+
+.call button {
+    border-color: white;
+}
+
+.call {
+    padding: 40px;
+}
+
+/* Footer */
+.footer {
+    justify-content: center;
+    align-items: center;
+}

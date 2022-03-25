@@ -8,14 +8,78 @@ body {
     flex-direction: column;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+}
+
 /* Header */
+.header > .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header > .nav {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
 
 /* Hero */
+.hero {
+    background-color: #1F2937;
+}
+.content > h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 /* Some random info */
+.information > h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
 
 /* Quote */
+.quote > review {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
 
 /* Call to action */
+.call {
+    background-color: #3882F6;
+    color: #F9FAF8
+}
 
 /* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}

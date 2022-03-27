@@ -6,40 +6,66 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    text-align: center;
 }
 
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    gap: 15px;
+}
+
+img {
+    max-width: 250px;
+    max-height: auto;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /* Header */
 .header > .logo{
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+    margin: auto;
 }
 
 .header > .nav {
-    font-size: 18px;
-    color: #E5E7EB;
+    margin: auto;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
+    align-items: center;
+
 }
 
 
 /* Hero */
 .hero {
     background-color: #1F2937;
+    padding: 100px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
 }
 .content > h1 {
     font-size: 48px;
@@ -52,6 +78,15 @@ button {
     color: #E5E7EB;
 }
 
+.hero > .content {
+    text-align: left;
+}
+
+.hero > img {
+    max-width: 500px;
+    max-height: auto;
+}
+
 /* Some random info */
 .information > h2 {
     font-size: 36px;
@@ -60,8 +95,13 @@ button {
     text-align: center;
 }
 
+.information > ul{
+    display: flex;
+    padding: 50px;
+}
+
 /* Quote */
-.quote > review {
+.quote > .review {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -70,13 +110,23 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 100px;
 }
 
 /* Call to action */
 .call {
     background-color: #3882F6;
-    color: #F9FAF8
+    color: #F9FAF8;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    text-align: left;
 }
+
 
 /* Footer */
 .footer {
